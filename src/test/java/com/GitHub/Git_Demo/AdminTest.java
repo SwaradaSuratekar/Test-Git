@@ -8,7 +8,9 @@ static String s= "Welcome";
 		AdminTest a=new AdminTest();
 		a.id=10;
 		System.out.println(a.id);
+		m1();
+	}
+	public static void m1() {
 		System.out.println(s);
 	}
-
 }
